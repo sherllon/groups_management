@@ -1,0 +1,20 @@
+<h1>Users List</h1>
+
+<div>
+	<a href="/users/newuser">Add user</a>
+</div>
+
+<table>
+	<thead>
+		<th>Username</th>
+		<th>Email</th>
+		<th>&nbsp;</th>
+	</thead>
+	{{#each userlist}}
+		<tr>
+			<td>{{username}}</td>
+			<td>{{email}}</td>
+			<td>remove</td>
+		</tr>
+	{{/each}}
+</table>

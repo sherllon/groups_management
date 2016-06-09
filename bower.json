@@ -1,0 +1,53 @@
+{
+  "name": "InterNationsTest",
+  "version": "0.0.0",
+  "authors": [
+    "Sherllon Alves <sherllon@gmail.com>"
+  ],
+  "description": "InterNations Front End Test",
+  "main": "app.js",
+  "moduleType": [
+    "amd",
+    "es6",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "www.sherllon.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "^2.2.0",
+    "underscore": "~1.8.3",
+    "jquery": "~2.1.3",
+    "backbone": "~1.1.2",
+    "marionette": "~2.4.1",
+    "backbone.marionette": "^2.4.7",
+    "foundation": "^5.5.3"
+  },
+  "overrides": {
+    "jquery": {
+      "js": "jquery.js"
+    },
+    "underscore": {
+      "js": "underscore.js"
+    },
+    "backbone": {
+      "js": "backbone.js"
+    },
+    "marionette": {
+      "js": "lib/backbone.marionette.js"
+    },
+    "requirejs": {
+      "js": "require.js"
+    }
+  },
+  "devDependencies": {
+    "requirejs": "~2.1.17",
+    "handlebars": "^4.0.5"
+  }
+}

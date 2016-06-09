@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{title}}</title>
+    <link rel='stylesheet' href='../build/css/main.min.css' />
+  </head>
+  <body>
+    
+    <!-- For express body, in case we need -->
+    {{{body}}}
+    
+    <!-- For Marionette body -->
+    <div id="bd">
+    </div>
+    
+    
+    <script src="/bower_components/requirejs/require.js"></script>
+    <script src="/src/js/config.js"></script>
+    <script>
+    	require(["App"], function(App) {
+    		var myApp = new App();
+    	});
+		
+    </script>
+    
+  </body>
+</html>

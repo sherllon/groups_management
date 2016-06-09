@@ -1,0 +1,3 @@
+define(["handlebars"], function(Handlebars) { return Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    return "<h3>Add group</h3>\n\n<div>\n	<form id=\"addGroupForm\" action=\"#\" method=\"post\">\n		<div>\n			<label for=\"name\">Group name:</label>\n			<input name=\"name\" id=\"name\" type=\"text\" required=\"true\">\n		</div>\n		<div>\n			<label for=\"description\">Description:</label>\n			<input name=\"description\" id=\"description\" type=\"text\" required=\"true\">\n		</div>\n		<div>\n			<input type=\"submit\" id=\"addGroupBtn\" value=\"Save\"/>\n		</div>\n	</form>\n</div>\n\n<a href=\"#\" class=\"return\">Return</a>";
+},"useData":true}); });
